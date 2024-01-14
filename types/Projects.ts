@@ -1,3 +1,4 @@
+import { PortableTextBlockComponent } from "@portabletext/react";
 import { PortableTextEditorElement } from "sanity";
 
 export type Project = {
@@ -7,5 +8,5 @@ export type Project = {
   slug: string;
   image: string;
   url: string;
-  content: PortableTextEditorElement;
+  content: any[];
 };
