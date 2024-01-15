@@ -1,6 +1,6 @@
 export type Page = {
   _id: string;
-  _title: string;
+  _type: string;
   _createdAt: string;
   title: string;
   slug: string;
